@@ -16,14 +16,14 @@ Processing 2+
 
 
 - copier le fichier `settings.pde` dans votre projet Processing
-- copier le fichier `data/settings.json` dans votre projet Processing, à l’identique (créé le dossier `data` si il n’est pas encore fait)
+- copier le fichier `data/settings.json` dans votre projet Processing, à l’identique (créer le dossier `data` si absent)
 - dans le `setup` de votre sketch, déclarer une variable `settings = new Settings();`
 - utiliser dans `setup` et `draw` l’objet `JSONObject` depuis `settings.json`
 - sauvegarder automatiquement avec `settings.autoSave()`;
 
 ## exemple d'utilisation
 
-```
+```java
 int i = 0;
 void setup(){
   //
